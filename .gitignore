@@ -20,3 +20,5 @@ Desktop.ini
 # sicherheitshalber ignorieren wir Dateien mit "cred" oder "secret" im Namen
 *cred*
 *secret*
+
+test.ps1
