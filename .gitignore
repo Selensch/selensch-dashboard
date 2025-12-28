@@ -1,0 +1,22 @@
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- PowerShell ---
+# Verlauf und Module, die nicht zum Projekt gehören
+*.psm1
+*.psd1
+.ConsoleHistory
+
+# --- Temporäre Dateien / Müll ---
+*.tmp
+*.log
+*.bak
+Thumbs.db
+Desktop.ini
+
+# --- Geheime Daten (Sicherheit!) ---
+# Falls du mal Passwörter in Textdateien speicherst (tu das nie!)
+# sicherheitshalber ignorieren wir Dateien mit "cred" oder "secret" im Namen
+*cred*
+*secret*
